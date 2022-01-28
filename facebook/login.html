@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+        <div class="left">
+                <img class="img" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg">
+                <h2 class="content">Facebook helps you connect and share<br> the people in your life.</h2>
+        </div>
+        <div class= "right">
+            <form  id="logIn" onsubmit="return validateForm()">
+                <input class="email" id="mail" type ="text"  placeholder="Email address or phone number" maxlength="20"><br>
+                <input class="pass" id="password" type ="password"  placeholder="password" maxlength="8" pattern="(?=^.{8,}$)(?=.*\d)(?=.*[!@#$%^&*]+)(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"><br>
+                <button class="login" type="submit">Log In</button><br>
+            </form> 
+                <a class="fg">Forgotten password?</a>
+                <hr>
+                <button class="cna"><a href="signup.html">Create New Account</a></button><br>
+            
+
+        </div>
+    <p class="para"><a class="link">Create a Page</a> for a celebrity, brand or business.</p>
+
+
+
+<script src="fbvalidation.js"></script>
+</body>
+</html>

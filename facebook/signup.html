@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel=stylesheet href="style.css">
+</head>
+
+<body>
+    
+<div class="signup">
+        <h1 class="heading1">Sign Up</h1>
+        <p  class="para1">It's quick and easy.</p>
+        <hr>
+        <form id="signUp" onsubmit="return signValidate()">
+                <input class="fname" type = "text" placeholder="First name" id="fName">
+                <input class="fname" type = "text" placeholder="Surname" id="sName" ><br>
+                <input class="mob" type = "text" placeholder="Mobile number or email address" id="mob-email" maxlength="20" ><br>
+                <input class="mob" type = "password" placeholder="New password" id="pass" maxlength="8" pattern="(?=^.{8,}$)(?=.*\d)(?=.*[!@#$%^&*]+)(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" >
+    
+    
+        <p class="para2">Date of birth</p>
+                <input type="date" id="dateofbirth" class="dob">
+            
+  
+        <p class="para3">Gender</p>
+            <span class="gender">Female<input style="width: 65px"  type="radio" name="gender1" value="female"></span>
+            <span class="gender">Male<input style="width: 65px"  type="radio"name="gender1" value="male"></span>
+            <span class="gender">Custom<input style="width: 65px"  type="radio" name="gender1" value="custom"></span><br>
+            <button class="sbtn" type="submit">Sign Up</button>
+           
+        </form>       
+</div> 
+</body>
+<script src="fbvalidation.js"></script>
+</html>
+
+
+

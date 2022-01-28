@@ -1,0 +1,138 @@
+.left {
+    margin-top: 200px;
+    margin-left: 16%;
+    float :left;
+}
+
+.img {
+height: 130px;
+margin: -28px;
+}
+
+.content {
+margin-top: 15px;
+font-size: 28px;
+font-weight: normal;
+line-height: 32px;
+width: 500px;
+}
+.right {
+margin-top: 150px;
+margin-right: 16%;
+float :right;
+box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.email {
+border-radius: 7px;
+width: 350px;
+height: 50px;
+}
+
+.pass {
+margin-top:10px;
+border-radius: 7px;
+width: 350px;
+height: 50px;
+
+}
+
+.fg {
+margin-left: 90px;
+color: rgb(16, 69, 184);
+}
+.login {
+background-color:rgb(22, 104, 228);
+color:white;
+margin-top:10px;
+margin-bottom: 10px;
+border-radius: 7px;
+width: 350px;
+height: 50px;
+font-size: 25px;
+}
+
+.cna {
+background-color: rgb(20, 189, 20);
+color:white;
+margin-top:10px;
+margin-bottom: 10px;
+margin-left: 70px;
+border-radius: 7px;
+width: 200px;
+height: 50px;
+font-size: 20px;
+
+
+}
+
+.cna a {
+    text-decoration: none; 
+}
+.para {
+color: black;
+margin-top: 30px;
+margin-left: 800px;
+float: left;
+}
+.link {
+    font-weight: bold;
+}
+
+
+.signup {
+      text-align: center;
+      margin-left: 34%;
+      margin-top: 100px;
+      box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+      width:450px;
+      height: 450px;
+}
+.heading1 {
+    margin-right: 320px;
+}
+.para1 {
+    margin-right: 300px;
+    margin-top: -15px;
+}
+.para2 {
+    margin-right: 333px;
+}
+.para3 {
+    margin-right: 365px;
+}
+.fname {
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.mob {
+    height:35px;
+    width:410px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.dob {
+    height:35px;
+    width:410px;
+    margin-top: -6px;
+    border-radius: 5px;
+}
+.sbtn {
+    margin-top: 15px;
+    height: 35px;
+    width: 180px;
+    font-size: 17px;
+    color: white;
+    background-color:  rgb(20, 189, 20);
+    border-radius: 5px;
+}
+
+.gender {
+    border: 1px solid;
+    padding:5px;
+    border-radius: 5px;
+   
+}
